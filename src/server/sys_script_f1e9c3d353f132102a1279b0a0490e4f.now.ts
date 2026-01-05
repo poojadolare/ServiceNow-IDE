@@ -2,13 +2,13 @@ import { BusinessRule } from '@servicenow/sdk/core'
 
 export default BusinessRule({
     $id: 'f1e9c3d353f132102a1279b0a0490e4f',
-    action: ['update', 'insert'],
+    action: ['update', 'delete', 'insert'],
     script: script`
              (function executeRule(current, previous /*null when async*/) {
-             
-             	// Add your code here
-             
-             })(current, previous);`,
+                          
+                          	// Add your code here
+                          
+                          })(current, previous);`,
     set_field_value: 'description=test^EQ',
     table: 'incident',
     name: 'NowIDE',

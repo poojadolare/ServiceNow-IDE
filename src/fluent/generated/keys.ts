@@ -21,6 +21,10 @@ declare global {
                         table: 'sys_module'
                         id: '65222c24a0e244dd88bfb53ce2a415f3'
                     }
+                    'src_server_sys_script_f1e9c3d353f132102a1279b0a0490e4f_now copy_ts': {
+                        table: 'sys_module'
+                        id: '0a4b448d4e8e476abb8f9f6cf8a0aae3'
+                    }
                 }
             }
         }
