@@ -2,7 +2,7 @@ import { BusinessRule } from '@servicenow/sdk/core'
 
 export default BusinessRule({
     $id: 'f1e9c3d353f132102a1279b0a0490e4f',
-    action: ['insert'],
+    action: ['update', 'insert'],
     script: script`
              (function executeRule(current, previous /*null when async*/) {
              
